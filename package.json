@@ -1,15 +1,17 @@
 {
-  "name": "cra_template",
-  "version": "0.1.0",
-  "private": true,
+  "name": "cra-template-annes",
+  "version": "0.2.2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "styled-components": "^5.3.6",
+    "web-vitals": "^2.1.4",
+    "zustand": "^4.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,6 +25,23 @@
       "react-app/jest"
     ]
   },
+  "description": "The base template for Create React App.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/facebook/create-react-app.git",
+    "directory": "packages/cra-template"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/facebook/create-react-app/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
   "browserslist": {
     "production": [
       ">0.2%",
